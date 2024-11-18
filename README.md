@@ -43,7 +43,7 @@ git merge --no-ff release-1.2
 
 ### Hotfix Branches
 ```bash
-git checkout -b hotfix-1.2.1 master
+git checkout -b hotfix-1.2.1 main
 # fix critical bug
 git merge --no-ff hotfix-1.2.1
 ```
@@ -58,17 +58,17 @@ git merge --no-ff hotfix-1.2.1
 
 2. **Release**
    - Start: branch from develop
-   - End: merge to master & develop
+   - End: merge to main & develop
 
 3. **Hotfix**
-   - Start: branch from master
-   - End: merge to master & develop
+   - Start: branch from main
+   - End: merge to main & develop
 
 ---
 
 ## Best Practices
 
-- Never commit to master directly
+- Never commit to main directly
 - Use meaningful branch names
 - Delete branches after merging
 - Always use `--no-ff` for merges
