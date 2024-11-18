@@ -22,6 +22,9 @@
 - Integration branch
 - Source of latest development changes
 - Where features come together
+```bash
+  git checkout -b develop main
+```
 
 ---
 
