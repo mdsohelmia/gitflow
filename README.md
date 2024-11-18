@@ -12,7 +12,7 @@
 
 ## Core Branches
 
-### Master Branch
+### Main Branch
 - Production-ready code
 - Contains released versions
 - Never receives direct commits
@@ -87,5 +87,4 @@ git merge --no-ff hotfix-1.2.1
 ---
 
 ## Questions?
-
-Contact: [Your Contact Info]
+Contact: [Md Sohel Mia](https://www.sohel.pro)
